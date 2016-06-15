@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+#import "FISVehicle.h"
+#import "FISCar.h"
+#import "FISRaceCar.h"
+#import "FISPlane.h"
+
+
 @interface FISAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
